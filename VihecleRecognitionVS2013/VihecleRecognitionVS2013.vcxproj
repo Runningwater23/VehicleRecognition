@@ -14,6 +14,7 @@
     <ProjectGuid>{85BAAF42-4E40-423C-A390-1E47F0DFC9E3}</ProjectGuid>
     <RootNamespace>VihecleRecognitionVS2013</RootNamespace>
     <Keyword>MFCProj</Keyword>
+    <ProjectName>VehicleRecognitionVS2013</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -55,6 +56,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalOptions>/D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -104,11 +106,13 @@
   <ItemGroup>
     <ClInclude Include="common.h" />
     <ClInclude Include="CvvImage.h" />
+    <ClInclude Include="MyLine.h" />
+    <ClInclude Include="MyTDMap.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
-    <ClInclude Include="VihecleRecognitionVS2013.h" />
-    <ClInclude Include="VihecleRecognitionVS2013Dlg.h" />
+    <ClInclude Include="VehicleRecognitionVS2013.h" />
+    <ClInclude Include="VehicleRecognitionVS2013Dlg.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CvvImage.cpp" />
@@ -116,8 +120,8 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="VihecleRecognitionVS2013.cpp" />
-    <ClCompile Include="VihecleRecognitionVS2013Dlg.cpp" />
+    <ClCompile Include="VehicleRecognitionVS2013.cpp" />
+    <ClCompile Include="VehicleRecognitionVS2013Dlg.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="VihecleRecognitionVS2013.rc" />

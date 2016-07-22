@@ -18,12 +18,6 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VihecleRecognitionVS2013.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="VihecleRecognitionVS2013Dlg.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="stdafx.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -39,18 +33,30 @@
     <ClInclude Include="common.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="VehicleRecognitionVS2013.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="VehicleRecognitionVS2013Dlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTDMap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="VihecleRecognitionVS2013.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="VihecleRecognitionVS2013Dlg.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="stdafx.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CvvImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleRecognitionVS2013.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="VehicleRecognitionVS2013Dlg.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

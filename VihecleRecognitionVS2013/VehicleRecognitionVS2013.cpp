@@ -3,8 +3,8 @@
 //
 
 #include "stdafx.h"
-#include "VihecleRecognitionVS2013.h"
-#include "VihecleRecognitionVS2013Dlg.h"
+#include "VehicleRecognitionVS2013.h"
+#include "VehicleRecognitionVS2013Dlg.h"
 
 #ifdef _DEBUG
 #define new DEBUG_NEW
@@ -76,7 +76,7 @@ BOOL CVihecleRecognitionVS2013App::InitInstance()
 	// 例如修改为公司或组织名
 	SetRegistryKey(_T("应用程序向导生成的本地应用程序"));
 
-	CVihecleRecognitionVS2013Dlg dlg;
+	CVehicleRecognitionVS2013Dlg dlg;
 	m_pMainWnd = &dlg;
 	INT_PTR nResponse = dlg.DoModal();
 	if (nResponse == IDOK)
