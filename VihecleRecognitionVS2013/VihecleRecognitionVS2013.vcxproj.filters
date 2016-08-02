@@ -45,6 +45,12 @@
     <ClInclude Include="MyLine.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="MyHistorgramAnalyse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -57,6 +63,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="VehicleRecognitionVS2013Dlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyHistorgramAnalyse.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
